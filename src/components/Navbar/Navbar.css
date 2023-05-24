@@ -38,6 +38,10 @@
     backdrop-filter: blur(20px) !important;
 }
 
+.MuiList-root{
+    background-color: darkgray;
+}
+
 
 
 @media (max-width:1100px) {

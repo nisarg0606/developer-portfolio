@@ -58,7 +58,7 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import nodejs from '../assets/svg/skills/Node.js_logo.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -123,6 +123,8 @@ export const skillsImage = (skill) => {
             return memsql;
         case 'mongodb':
             return mongoDB;
+        case 'node js':
+            return nodejs;
         case 'mysql':
             return mysql;
         case 'postgresql':
